@@ -1,0 +1,8 @@
+{
+ "data_path": "./IDRad-TBA",
+ "train_ann": "train.json",
+ "val_ann": "val.json",
+ "test_ann": "test.json",
+ "max_rad_len": 900
+}
+
