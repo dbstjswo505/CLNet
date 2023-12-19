@@ -13,13 +13,13 @@ conda env create --file environment.yaml
 ## Download IDRad data
 You can download IDRad dataset below two links
 
-- (IDRad: original) [https://www.imec-int.com/en/IDRad]
+- [**IDRad:original**](https://www.imec-int.com/en/IDRad)
 
-- (IDRad) [https://www.imec-int.com/en/IDRad]
+- [**IDRad**](https://www.imec-int.com/en/IDRad)
 
-Option: download IDRad dataset below two links
+Option: download IDRad-TBA (Temporal Boundary Annotation) dataset below link
 
-- (IDRad-TBA) [https://www.imec-int.com/en/IDRad]
+- [**IDRad-TBA**](https://www.imec-int.com/en/IDRad)
 
 ## Reproduce IDRad-TBA dataset for Radar Human Localization
 ```
@@ -39,6 +39,6 @@ python train.py
 Inference only is also possible by commenting the training in the code.
 
 ## Reference
-Dual-scale Doppler Attention for Human Identification. (Link)[https://github.com/dbstjswo505/DSDA]
+Dual-scale Doppler Attention for Human Identification. [Link](https://github.com/dbstjswo505/DSDA)
 
-Indoor Person Identification with Radar Data. (Link)[https://github.com/baptist/idrad]
+Indoor Person Identification with Radar Data. [Link](https://github.com/baptist/idrad)
