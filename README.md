@@ -1,4 +1,4 @@
-# Repositery for Causal Localization Network for Radar Human Localization with micro-Doppler signature
+# Causal Localization Network for Radar Human Localization with micro-Doppler signature
 
 ## Environment
 - python 3.7
@@ -13,18 +13,19 @@ conda env create --file environment.yaml
 ## Download IDRad data
 You can download IDRad dataset below two links
 
-- [**IDRad:original**](https://www.imec-int.com/en/IDRad)
+- [**IDRad_original**](https://www.imec-int.com/en/IDRad)
 
-- [**IDRad**](https://www.imec-int.com/en/IDRad)
+- [**IDRad**](https://drive.google.com/file/d/1xg6vjABcuhJu8rVPt9RNMiiYVEYDUHHm/view?usp=drive_link)
 
 Option: download IDRad-TBA (Temporal Boundary Annotation) dataset below link
 
-- [**IDRad-TBA**](https://www.imec-int.com/en/IDRad)
+- [**IDRad-TBA**](https://drive.google.com/file/d/1MY8ikGtRSJQ05EB28YYpcTXXAWviFYtd/view?usp=sharing)
 
 ## Reproduce IDRad-TBA dataset for Radar Human Localization
 ```
 python make_data.py
 ```
+Prepare 'IDRad' folder for IDRad dataset
 
 ## Prepare causal mask and spasity mask for Causal Localization Network (CLNet)
 ```
